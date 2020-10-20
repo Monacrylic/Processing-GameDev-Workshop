@@ -12,6 +12,10 @@ This is the primary repository for the Hardware-Game-Dev Workshop conducted by T
 6) WaveLine
 Or any other game that would use only the mouse or arrowkeys for control.
 
+## Important Links
+Processing Download -
+Processing Reference -
+
 
 ## Processing Code Best Practices
 
