@@ -13,11 +13,20 @@ This is the primary repository for the Hardware-Game-Dev Workshop conducted by T
 7) Snake Game - Sahil
 8) Stack - Yash
 9) Space Invaders- Raghav
+
 Or any other game that would use only the mouse or arrowkeys for control.
 
 ## Important Links
-Processing Download -
-Processing Reference -
+Processing Download - https://processing.org/download/
+Processing Reference - https://processing.org/reference/
+
+## Cool Libraries (Find them Sketch--> Import Library --> Add library)
+## Check out the examples that get installed with the library
+
+Handy - Render all basic shapes as hand-drawn sketches (to make it look like 'that level again')
+Box2D - 2D physics engine 
+ControlP5 - Add UI elements (Buttons etc)
+PeasyCam - Mouse controlled 3D camera
 
 
 ## Processing Code Best Practices
