@@ -21,7 +21,7 @@ Processing Download - https://processing.org/download/
 Processing Reference - https://processing.org/reference/
 
 ## Cool Libraries (Find them Sketch--> Import Library --> Add library)
-## Check out the examples that get installed with the library
+### Check out the examples that get installed with the library
 
 Handy - Render all basic shapes as hand-drawn sketches (to make it look like 'that level again')
 Box2D - 2D physics engine 
