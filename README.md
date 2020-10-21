@@ -4,13 +4,20 @@ This is the primary repository for the Hardware-Game-Dev Workshop conducted by T
 
 ## Assign a game to yourself, to avoid duplication
 
-1) Flappy Bird - Siddharth Kothari
-2) Brick Breaker 
-3) Avoid the obstacles
-4) Pong 
-5) Dino Run
+1) Flappy Bird - Siddharth, Himanshu
+2) Brick Breaker - Pulkit, Anand
+3) Avoid the obstacles - Ritvik, Devashish
+4) Pong - Aditya
+5) Dino Run - 
 6) WaveLine
+7) Snake Game - Sahil
+8) Stack - Yash
+9) Space Invaders- Raghav
 Or any other game that would use only the mouse or arrowkeys for control.
+
+## Important Links
+Processing Download -
+Processing Reference -
 
 
 ## Processing Code Best Practices
