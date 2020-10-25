@@ -14,7 +14,7 @@ class Obstacle {
 
 	void drawObstacle() {
 		fill(obstacleColor);
-		rect(0, y, leftVal, this.height);
-		rect(rightVal, y, width, this.height);
+		handy.rect(0, y, leftVal, this.height);
+		handy.rect(rightVal, y, width, this.height);
 	}
 }

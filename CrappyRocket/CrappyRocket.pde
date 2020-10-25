@@ -1,11 +1,59 @@
+
+/*
+A very-crappy rocket game where you have to control the rocket while avoiding the obstacles!
+Technotix Hardware Game Dev Workshop - Part 1
+
+Author: Raghav Vashisht
+Date: 25.10.2020
+*/
+
 void setup(){
   fullScreen();
+  // Initialize Handy.
+  handy = new HandyRenderer(this);
+  // Create new obstacle objects
   setupObstacles();
   refresh();
   obstacle();
   alive = true;
   score = 0;
 }
+
+void draw(){
+  if (alive){
+    refresh();
+    obstacle();
+    collisionCheck();
+  }else{
+   restartScreen();
+  }
+  scoreCheck();
+}
+
+void keyPressed() {
+  if(keyCode == LEFT) {
+    velocity = -3.5;
+  } else if (keyCode == RIGHT) {
+     velocity = 3.5; 
+  }
+}
+
+void keyReleased() {
+   velocity = 0; 
+}
+
+void obstacle(){
+  //print(obstacleY);
+  for(int i=0;i<obstacles.length;i++) {
+    if(obstacles[i].y >= height) {
+        obstacles[i].leftVal = random(300,width-500);
+        obstacles[i].rightVal = obstacles[i].leftVal+125;
+        obstacles[i].y = 0;
+    }
+  }
+}
+
+// Below are the helper functions
 
 void refresh(){
   if (alive==true) {
@@ -34,29 +82,6 @@ void setupObstacles() {
   obstacles[0] = new Obstacle(leftValue, leftValue+125, 0, 75);
   leftValue = random(300,width-500);
   obstacles[1] = new Obstacle(leftValue, leftValue+125, -distanceBWobstacle, 75);
-}
-
-void keyPressed() {
-  if(keyCode == LEFT) {
-    velocity = -3.5;
-  } else if (keyCode == RIGHT) {
-     velocity = 3.5; 
-  }
-}
-
-void keyReleased() {
-   velocity = 0; 
-}
-
-void obstacle(){
-  //print(obstacleY);
-  for(int i=0;i<obstacles.length;i++) {
-    if(obstacles[i].y >= height) {
-        obstacles[i].leftVal = random(300,width-500);
-        obstacles[i].rightVal = obstacles[i].leftVal+125;
-        obstacles[i].y = 0;
-    }
-  }
 }
 
 void collisionCheck(){
@@ -96,15 +121,4 @@ void scoreCheck(){
   fill(255,0,0);
   textSize(40);
   text(score,450,50);
-}
-
-void draw(){
-  if (alive){
-    refresh();
-    obstacle();
-    collisionCheck();
-  }else{
-   restartScreen();
-  }
-  scoreCheck();
 }
