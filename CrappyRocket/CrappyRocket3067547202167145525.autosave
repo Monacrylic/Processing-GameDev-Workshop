@@ -1,20 +1,4 @@
-float ballX = 0;
-float gravity = .2;
-float velocity = 0;
-float distanceBWobstacle = 500;
 
-// 1st Obstacle
-float leftValue1 = random(300,width-500);
-float rightValue1 = leftValue1+125;
-float obstacleY1 = distanceBWobstacle;
-
-// 2nd Obstacle
-float leftValue2 = random(300,width-500);
-float rightValue2 = leftValue2+125;
-float obstacleY2 = 0;
-
-boolean alive = true;
-int score = 0;
 
 // When velocity is +ve, ball goes down
 
