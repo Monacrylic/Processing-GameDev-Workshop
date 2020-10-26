@@ -9,8 +9,8 @@ Date: 25.10.2020
 
 void setup(){
   fullScreen();
-  // Initialize Handy.
-  handy = new HandyRenderer(this);
+  
+  
   // Create new obstacle objects
   setupObstacles();
   refresh();
@@ -32,9 +32,9 @@ void draw(){
 
 void keyPressed() {
   if(keyCode == LEFT) {
-    velocity = -3.5;
+    velocity = -8.5;
   } else if (keyCode == RIGHT) {
-     velocity = 3.5; 
+     velocity = 8.5; 
   }
 }
 
@@ -71,17 +71,18 @@ void refresh(){
     // Redraw Obstacles
     for(Obstacle obstacle : obstacles) {
       obstacle.drawObstacle();
-      // Move obstacles down by 3 px everytime they are redrawn
-      obstacle.y += 3;
+      // Move obstacles down by 6 px everytime they are redrawn
+      obstacle.y += 5;
     }
   }
 }
 
 void setupObstacles() {
   float leftValue = random(300,width-500);
-  obstacles[0] = new Obstacle(leftValue, leftValue+125, 0, 75);
+  color obColor=color(255);
+  obstacles[0] = new Obstacle(leftValue, leftValue+125, 0, 75, obColor );
   leftValue = random(300,width-500);
-  obstacles[1] = new Obstacle(leftValue, leftValue+125, -distanceBWobstacle, 75);
+  obstacles[1] = new Obstacle(leftValue, leftValue+125, -distanceBWobstacle, 75, obColor);
 }
 
 void collisionCheck(){

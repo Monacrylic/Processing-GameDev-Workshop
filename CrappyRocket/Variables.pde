@@ -5,7 +5,7 @@ float velocity = 0;
 HandyRenderer handy;
 Obstacle[] obstacles= new Obstacle[2];
 
-// Black
+
 color obstacleColor= color(0);
 
 boolean alive = true;
