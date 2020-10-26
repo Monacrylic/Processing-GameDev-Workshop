@@ -1,15 +1,6 @@
 # Hardware Game Developmemnt Workshop - Part 1
-This is the primary repository for the Hardware-Game-Dev Workshop conducted by Technotix on 25th/31st of October 2020.
-
-
-## Previews!
-![pong_small](https://user-images.githubusercontent.com/44057927/97206857-4e13d300-17df-11eb-953a-c7029cebcbdc.gif)
 ![rocket_small](https://user-images.githubusercontent.com/44057927/97206863-4f450000-17df-11eb-8f4c-c6d2df8a3719.gif)
-![flappy_small](https://user-images.githubusercontent.com/44057927/97206866-50762d00-17df-11eb-96b8-89cc4b94151e.gif)
-![brickBreaker_small](https://user-images.githubusercontent.com/44057927/97206876-510ec380-17df-11eb-83a2-ed773c5f25be.gif)
-
-
-
+This is the primary repository for the Hardware-Game-Dev Workshop conducted by Technotix on 25th/31st of October 2020.
 
 ## Processing Code Best Practices
 
@@ -30,4 +21,11 @@ Check out the examples that get installed with the library
 2) Box2D - 2D physics engine 
 3) ControlP5 - Add UI elements (Buttons etc)
 4) PeasyCam - Mouse controlled 3D camera
+
+## Some games in the repo!
+
+![pong_small](https://user-images.githubusercontent.com/44057927/97206857-4e13d300-17df-11eb-953a-c7029cebcbdc.gif)
+![flappy_small](https://user-images.githubusercontent.com/44057927/97206866-50762d00-17df-11eb-96b8-89cc4b94151e.gif)
+![brickBreaker_small](https://user-images.githubusercontent.com/44057927/97206876-510ec380-17df-11eb-83a2-ed773c5f25be.gif)
+
 
