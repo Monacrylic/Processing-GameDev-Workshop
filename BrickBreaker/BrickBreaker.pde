@@ -36,8 +36,9 @@ void setup()
 void draw()
 {
   // Everything here runs forever
-  background(0);
   
+  if (!gameOver){
+  background(0);
   ball.draw();
   paddle.draw();
   
@@ -62,6 +63,22 @@ void draw()
     text("Gameover", width / 2, height / 2);
     text("Final Score: ", width / 2 - 10, height / 2 + 30);
     text(score, width / 2 + 80, height / 2 + 30);
-    noLoop();
+    gameOver=true;
+    
+  }
+  
+  }
+}
+
+void resetGame(){
+  score=0;
+  setup();
+  draw();
+}
+
+void keyPressed(){
+  if(gameOver){
+    resetGame();
+    gameOver=false;
   }
 }

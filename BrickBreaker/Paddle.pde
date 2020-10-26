@@ -19,6 +19,7 @@ class Paddle
     // Check if any key is pressed and change position of the paddle according to
     // the key
     if(keyPressed && keyCode == RIGHT)
+    
       paddleX += paddleSpeed;
     
     if(keyPressed && keyCode == LEFT)

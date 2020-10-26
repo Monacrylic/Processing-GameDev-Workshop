@@ -22,3 +22,4 @@ int ballRadius = 5;
 
 // Set initial score to zero
 int score = 0;
+boolean gameOver= false;
