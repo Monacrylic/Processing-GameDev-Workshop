@@ -2,19 +2,12 @@
 This is the primary repository for the Hardware-Game-Dev Workshop conducted by Technotix on 25th/31st of October 2020.
 
 
-## Assign a game to yourself, to avoid duplication
+## Previews!
+![pong_small](https://user-images.githubusercontent.com/44057927/97206857-4e13d300-17df-11eb-953a-c7029cebcbdc.gif)
+![rocket_small](https://user-images.githubusercontent.com/44057927/97206863-4f450000-17df-11eb-8f4c-c6d2df8a3719.gif)
+![flappy_small](https://user-images.githubusercontent.com/44057927/97206866-50762d00-17df-11eb-96b8-89cc4b94151e.gif)
+![brickBreaker_small](https://user-images.githubusercontent.com/44057927/97206876-510ec380-17df-11eb-83a2-ed773c5f25be.gif)
 
-1) Flappy Bird - Siddharth, Himanshu
-2) Brick Breaker - Pulkit, Anand
-3) Avoid the obstacles - Ritvik, Devashish
-4) Pong - Aditya
-5) Dino Run - 
-6) WaveLine
-7) Snake Game - Sahil
-8) Stack - Yash
-9) Space Invaders- Raghav
-
-Or any other game that would use only the mouse or arrowkeys for control.
 
 
 
